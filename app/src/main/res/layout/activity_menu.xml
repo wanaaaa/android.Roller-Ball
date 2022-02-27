@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Game"
+        tools:layout_editor_absoluteX="194dp"
+        tools:layout_editor_absoluteY="303dp"
+        tools:ignore="MissingConstraints"
+        android:onClick="onStartGame"
+        />
+
+    <Button
+        android:id="@+id/bPlayBackBuID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play Background Music"
+        tools:layout_editor_absoluteX="194dp"
+        tools:layout_editor_absoluteY="303dp"
+        tools:ignore="MissingConstraints"
+        android:onClick="onPlayBMusic"
+        />
+
+    <TextView
+        android:id="@+id/topScoreTViewID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TextView"
+        android:textSize="20dp"
+        />
+
+</LinearLayout>
